@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Oct19_DemoHiding", "1Oct19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Oct19_DemoMethodOverriding", "1Oct19_DemoMethodOverriding\1Oct19_DemoMethodOverriding.csproj", "{264F5E3B-CC33-484A-99DC-674E748BC59E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Oct19_DemoInterface", "03Oct19_DemoInterface\03Oct19_DemoInterface.csproj", "{FF37C566-25F0-4626-ABC0-92ABB741EE99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{264F5E3B-CC33-484A-99DC-674E748BC59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264F5E3B-CC33-484A-99DC-674E748BC59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264F5E3B-CC33-484A-99DC-674E748BC59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF37C566-25F0-4626-ABC0-92ABB741EE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF37C566-25F0-4626-ABC0-92ABB741EE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF37C566-25F0-4626-ABC0-92ABB741EE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF37C566-25F0-4626-ABC0-92ABB741EE99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
