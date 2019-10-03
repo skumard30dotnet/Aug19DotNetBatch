@@ -22,12 +22,15 @@ namespace _03Oct19_DemoInterface
         //}
 
         void Sub(int a, int b);
+
+        void Display(string msg);
     }
 
     interface ICalculator2
     {
         void Mul(int a, int b);
         void Div(int a, int b);
+        void Display(string msg);
     }
 
     public class CalculatorClient1 : ICalculator1
@@ -37,6 +40,11 @@ namespace _03Oct19_DemoInterface
             int c = a + b;
 
             Console.WriteLine("The Addition result is {0}", c);
+        }
+
+        public void Display(string msg)
+        {
+            throw new NotImplementedException();
         }
 
         public void Sub(int a, int b)
@@ -59,6 +67,11 @@ namespace _03Oct19_DemoInterface
             int c = a / b;
 
             Console.WriteLine("The Div result is {0}", c);
+        }
+
+        public void Display(string msg)
+        {
+            throw new NotImplementedException();
         }
     }
 
@@ -88,6 +101,17 @@ namespace _03Oct19_DemoInterface
             int c = a / b;
 
             Console.WriteLine("The Div result is {0}", c);
+        }
+
+
+        void ICalculator1.Display(string msg)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ICalculator2.Display(string msg)
+        {
+            throw new NotImplementedException();
         }
     }
 }
