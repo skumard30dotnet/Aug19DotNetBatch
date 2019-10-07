@@ -11,6 +11,7 @@ namespace _03Oct19_DemoInterface
         //Not allowed to create an instance of a class
         // Implement the interface in the derived class
         //Interface does not allow variables declaration
+        // All methods are abstract by default
         // All the methods of interface to be implemented in the derived class
         //int x = 0;
 
